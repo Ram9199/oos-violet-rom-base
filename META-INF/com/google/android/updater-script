@@ -1,10 +1,10 @@
 assert(getprop("ro.product.device") == "violet" || getprop("ro.build.product") == "&&device&&" || abort("E3004: This package is for device: &&device&&; this device is " + getprop("ro.product.device") + "."););
 ifelse(is_mounted("/system_root"), unmount("/system_root"));
 ui_print("----------------------------------------------");
-ui_print("                  Oxygen OS                   ");
-ui_print("             Ported by : &&porter&&		");
-ui_print("	Flashable zip made using GSI2ROM	");
-ui_print("                by @oddlyspaced               ");
+ui_print("                  Oxygen OS");
+ui_print("             Ported by : &&porter&&");
+ui_print("	Flashable zip made using GSI2ROM");
+ui_print("                by @oddlyspaced");
 ui_print("----------------------------------------------");
 ui_print(" Android version: &&android_version&&");
 ui_print(" Ported from: &&port&&");
