@@ -3,7 +3,7 @@ ifelse(is_mounted("/system_root"), unmount("/system_root"));
 ui_print("----------------------------------------------");
 ui_print("                  Oxygen OS");
 ui_print("             Ported by : &&porter&&");
-ui_print("	Flashable zip made using GSI2ROM");
+ui_print("        Flashable zip made using GSI2ROM");
 ui_print("                by @oddlyspaced");
 ui_print("----------------------------------------------");
 ui_print(" Android version: &&android_version&&");
